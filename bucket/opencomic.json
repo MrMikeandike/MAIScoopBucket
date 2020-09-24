@@ -6,7 +6,7 @@
             "url": "https://github.com/ollm/OpenComic/releases/download/v0.2.0/OpenComic.Setup.0.2.0.exe#dl.7z"
 	}
     },
-    "extract_dir": "$PLUGINDIR",
+    "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z'",
